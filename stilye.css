@@ -1,0 +1,91 @@
+.img12 {
+    color: black;
+    background-color: rgb(12, 12, 20);
+}
+
+#ooo {
+    display: flex;
+    justify-content: space-between;
+}
+
+body {
+    font-family: Arial, sans-serif;
+}
+
+nav {
+    background-color: #333;
+}
+
+#menu {
+    list-style-type: none;
+    margin-left: 40px;
+    padding: 0;
+    display: flex;
+    /* يجعل القائمة أفقية */
+    justify-content: end;
+    align-items: end;
+}
+
+#menu li {
+    margin-right: 20px;
+    /* المسافة بين العناصر */
+}
+
+#menu a {
+    color: rgb(4, 3, 3);
+    text-decoration: none;
+    padding: 14px 20px;
+    display: block;
+    transition: 0.5s;
+    border-radius: 50%;
+    /* لجعل منطقة النقر أكبر */
+}
+
+#menu a:hover {
+    background-color: hsl(0, 0%, 90%);
+    transform: scale(1.1);
+    /* تغيير لون الخلفية عند التمرير */
+}
+
+
+/*  2222222 */
+
+#ppp {
+    display: flex;
+    justify-content: space-between;
+}
+
+.ph1 h1 {
+    font-size: 40px;
+    align-items: center;
+    margin-left: 400px;
+}
+
+#rrr img {
+    width: 40px;
+    transition: 0.5s;
+}
+
+#rrr {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#rrr img:hover {
+    transform: scale(1.2);
+}
+
+.all {
+    background-color: #a38080;
+}
+
+.u img {
+    height: 400px;
+}
+
+#h1 {
+    align-items: center;
+    justify-content: center;
+    margin-right: 60%;
+}
